@@ -1,3 +1,10 @@
+.carousel-item{
+    background-color: black;
+}
+.carousel-item img{
+    opacity: .7;
+}
+
 .txt{
     font-size: 18px;
     color: blue;
@@ -20,4 +27,17 @@ footer {
 }
 .social{
     padding: 1rem;
+}
+
+@media (max-width: 575px) {
+    .carousel-item img {
+        width: 335;
+        height: 260px;
+        
+    }
+
+    .carousel-caption{
+        font-size: 1.5vh;
+    }
+    
 }
